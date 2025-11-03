@@ -2,10 +2,13 @@ body {
   font-family: Arial, sans-serif;
   margin:0;
   padding:0;
-  background-color:#0B3D91;
+  background-color:#242D40;
 }
 header h1{
   text-align:left;
+  font-size:2.5rem;
+  font-style: italic;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
   margin:0;
   padding:10px 0;
 }
@@ -22,7 +25,8 @@ header.primary nav ul{
   padding:0;
   display:flex;
   flex-direction:row;
-  justify-content:space-around;
+  justify-content:end;
+  gap:15px;
   margin:20px 0 10px 0;
 }
 
@@ -31,12 +35,12 @@ header.primary nav ul li{
 }
 
 header.primary nav ul a{
-  color:#ffffff;
+  color:#A0C3D9;
   padding:5px 7.5px;
   border-radius:20px;
   text-decoration:none;
-  background-color:#000000;
-  background-color:rgba(0,0,0,.4);
+  background:transparent;
+  background-color:transparent;
   font-size:.9rem;
   transition:.4s;
 }
@@ -47,8 +51,8 @@ header.primary nav a:hover{
 header.primary{
   text-align:center;
   padding:10px;
-  background-color:#FC3D21;
-  color:#ffffff;
+  background-color:#590202;
+  color:#A0C3D9;
   grid-area: 1/1/2/4;
 }
 #content{
@@ -69,8 +73,8 @@ aside{
 footer{
   text-align:left;
   padding:10px;
-  background-color:#FC3D21;
-  color:#ffffff;
+  background-color:#590202;
+  color:#A0C3D9;
   position:relative;
   bottom:0;
   width:100%;
