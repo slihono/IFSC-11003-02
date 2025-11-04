@@ -53,6 +53,7 @@ header.primary{
   text-align: left;
   padding:10px;
   background-color:#590202;
+  position:relative;
   color:#A0C3D9;
 }
  main{
