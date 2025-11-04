@@ -68,8 +68,13 @@ header.primary{
 #content{
   padding:15px;
   grid-column: 1 / 2;
-  font-size:  10%;
 }
+ .section-background {
+  position: relative;
+  width: 850px;
+  height: 455px;
+  overflow: hidden;
+}   
 #blog{
   background-color:#8b6b2d;
   padding:15px;
