@@ -70,9 +70,9 @@ header.primary{
   grid-column: 1 / 2;
 }
  .section-background {
-  position: relative;
-  width: 850px;
-  height: 455px;
+  position:relative;
+  width: 840px;
+  height: 445px;
   overflow: hidden;
 }   
 #blog{
