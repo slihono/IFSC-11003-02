@@ -2,7 +2,8 @@ body {
   font-family: Arial, sans-serif;
   margin:0;
   padding:0;
-  background-color:#242D40;
+  background: #242D40;
+background: linear-gradient(90deg, rgba(36, 45, 64, 1) 0%, rgba(9, 9, 121, 1) 58%, rgba(60, 94, 115, 1) 100%);
 }
 header h1{
   text-align:left;
