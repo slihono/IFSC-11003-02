@@ -208,7 +208,8 @@ header.primary  nav ul a{
   width:100%;
   margin:20px auto;
 }
-  
+  footer{
+    font-size:.8rem;align-self:end;}
   
 }
 
