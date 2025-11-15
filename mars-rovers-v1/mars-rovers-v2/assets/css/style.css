@@ -58,7 +58,7 @@ header.primary{
   position:relative;
   color:#A0C3D9;
 }
- main{
+ .grid-container{
   display:grid;
   grid-template-columns: 2fr 2fr;
   grid-auto-rows: auto;
