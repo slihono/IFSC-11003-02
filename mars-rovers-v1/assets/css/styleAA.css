@@ -175,14 +175,14 @@ padding:15px;
   100% { transform: translateX(-900px); }
 }
 .yema{
-  
   padding:auto;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
-  grid-area: auto;
+ 
 }
 .aside{
-  
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
   padding:15px;
 }
  a{
@@ -250,6 +250,8 @@ footer a:hover{
   header.primary nav ul li {
     margin-bottom: 10px;
     width: 400px;
+    color: #6793af;
+    
   }
 
   header.primary nav ul li a {
