@@ -193,12 +193,11 @@ padding:15px;
   color:#88a6b9;
   text-decoration:none;
 }
-logo{
+.logo{
   text-align:left;
   padding:10px;
   position: relative;
-  color:#A0C3D9;
-  grid-area: 4/1/5/3;
+  
 }
 
 
