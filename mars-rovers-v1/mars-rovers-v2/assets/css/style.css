@@ -87,11 +87,10 @@ header.primary{
   grid-column: 1/ 3;
 }
 .Blog1{
-  background-color:#cfae6b;
   padding:15px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
-  grid-column: 2 / 3;
+  grid-area: 2/2/3/3;
 }
 
 .aside{
