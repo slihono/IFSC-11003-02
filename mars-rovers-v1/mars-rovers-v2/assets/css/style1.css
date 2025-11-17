@@ -118,7 +118,13 @@ footer{
   display: block;
   margin: 0.5rem auto;
 }
-
+div.container{
+  background-color:rgba(84, 75, 75, 0.8);
+  width:80%;
+  margin:20px auto;
+  padding:20px;
+  border-radius:10px;
+}
 
 
 
