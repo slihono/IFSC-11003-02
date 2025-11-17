@@ -67,19 +67,16 @@ header.primary{
   margin:20px auto;
   padding:20px;
 }
-/* Ligne 1 : content (gauche) / content1 (droite) */
 .content{
   padding:15px;
-  grid-column: 1 / 2;
-  background-color: #8b6b2d;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
+  grid-area: 1/1/3/2;
 }
   
 .Blog{
-  background-color:#28ba3e;
   padding:15px;
-  grid-column: 1 / 2;
+  grid-area: 1/2/2/3;
 }
 
 .content1{
@@ -115,15 +112,20 @@ footer{
   grid-column: 1 / 3;
   
 }
-
-/* Images: réduire la taille des images situées dans #content ou #logo */
-#content img,
-#logo img {
-  max-width: 90%; /* ne dépasse pas la colonne */
-  width: 220px;    /* taille par défaut — change à 150px/200px selon besoin */
-  height: auto;    /* conserve les proportions */
-  display: block;
-  margin: 0.5rem auto;
+img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+ a{
+  color:#08090a;
+  text-decoration:none;
+}
+ a:hover{
+  color:#88a6b9;
+  text-decoration:none;
 }
 
 
