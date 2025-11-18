@@ -8,7 +8,7 @@
 }
  .container{
     width: 80vw;
-    max-width:auto;
+    max-width:100%;
     margin: 20px auto;
  }
  .container p{
@@ -175,7 +175,7 @@ padding:15px;
   100% { transform: translateX(-900px); }
 }
 .yema{
-  padding:auto;
+  padding:15px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
  
@@ -223,7 +223,7 @@ footer a:hover{
 }
 footer li{
   list-style-type:none;
-  color: #262e32;
+  color: #7aa0b3;
 }
 
 
