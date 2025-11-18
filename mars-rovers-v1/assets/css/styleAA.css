@@ -221,6 +221,10 @@ footer a:hover{
   color:#88a6b9;
   text-decoration:underline;
 }
+footer li{
+  list-style-type:none;
+  color: #262e32;
+}
 
 
 
