@@ -75,20 +75,27 @@ h2{
   padding:10px 0;
   color:#1c1f21;
 }
-h3{ 
+dl{ 
   text-align:left;
   font-size:1.2rem;
   font-style: italic;
   font-family: 'helvetica neue', helvetica, arial, sans-serif;
   margin:0;
   padding:10px 0;
-  color:#1c1f21;
+  color: #000;;
 }
-p{
+dt{
   font-size:1rem;
-  color:#050606;
+  color:#000;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
+}
+dd{
+  font-size:1rem;
+  color:#000;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  margin:0 0 15px 20px;
+  padding:0;
 }
 section#articles {
   background: #181c1f;
