@@ -10,7 +10,7 @@ $(document).ready(function() {
       autoplay: true,
       autoplaySpeed: 2000
     });
-    
+
     $('.variable-width').slick({
   dots: true,
   infinite: true,
@@ -18,6 +18,33 @@ $(document).ready(function() {
   slidesToShow: 1,
   centerMode: true,
   variableWidth: true
+});
+$('.center').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        dots: true,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        dots: true,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
 });
 
 
