@@ -12,7 +12,7 @@ header h1{
   font-family: 'helvetica neue', helvetica, arial, serif;
   margin:0;
   padding:10px 0;
-  color:#455864;
+  color:#A0C3D9;
 }
 header h2{
   text-align:left;
@@ -75,28 +75,43 @@ h2{
   padding:10px 0;
   color:#1c1f21;
 }
-dl{ 
-  text-align:left;
-  font-size:1.2rem;
-  font-style: italic;
-  font-family: 'helvetica neue', helvetica, arial, sans-serif;
-  margin:0;
-  padding:10px 0;
-  color: #000;;
+.multiple-items {
+  width: 80%;
+  margin: 50px auto;
 }
-dt{
-  font-size:1rem;
-  color:#000;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: italic;
+.multiple-items div {
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  padding: 60px 0;
+  margin: 0 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-dd{
-  font-size:1rem;
-  color:#000;
-  font-family: 'helvetica neue', helvetica, arial, sans-serif;
-  margin:0 0 15px 20px;
-  padding:0;
+.slick-prev, .slick-next {
+  font-size: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  border-radius: 50%;
+  z-index: 1;
 }
+.slick-prev:before, .slick-next:before {
+  font-size: 30px;
+  color: white;
+}
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #333;
+}
+.slick-dots li.slick-active button:before {
+  color: #007bff;
+}
+
+
 section#articles {
   background: #181c1f;
 }
