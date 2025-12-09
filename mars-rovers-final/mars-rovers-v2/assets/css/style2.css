@@ -80,38 +80,53 @@ h2{
   margin: 50px auto;
 }
 .multiple-items div {
-  background-color: #f0f0f0;
-  border: 2px solid #ccc;
+  background-color: #590202;
   font-size: 48px;
   font-weight: bold;
   color: #333;
   text-align: center;
-  padding: 60px 0;
-  margin: 0 10px;
-  border-radius: 10px;
+  padding-left: 10px;
+  margin: 20px auto;
+  border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-.slick-prev, .slick-next {
-  font-size: 0;
-  width: 40px;
-  height: 40px;
-  background-color: #333;
-  border-radius: 50%;
-  z-index: 1;
-}
-.slick-prev:before, .slick-next:before {
-  font-size: 30px;
-  color: white;
-}
-.slick-dots li button:before {
-  font-size: 12px;
-  color: #333;
-}
-.slick-dots li.slick-active button:before {
-  color: #007bff;
+/* Customize Previous/Next/Dots/Autoplay */
+
+.slick-autoplay-toggle-button,
+.slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
+.slick-dots li button .slick-dot-icon,
+.slick-dots li.slick-active button .slick-dot-icon {
+  color: rgb(17, 16, 16);
 }
 
+/* Customize Previous/Next/Dots/Autoplay - Active State */
 
+.slick-next:focus .slick-next-icon,
+.slick-next:focus .slick-prev-icon,
+.slick-prev:focus .slick-next-icon,
+.slick-prev:focus .slick-prev-icon,
+.slick-dots li button:focus .slick-dot-icon:before,
+.slick-dots li.slick-active button:focus .slick-dot-icon,
+.slick-autoplay-toggle-button:focus 
+{
+    color:black;
+}
+.multiple-items h3{ 
+  text-align:center;
+  font-size:20px;
+  font-style: italic;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  margin:0;
+  padding:10px 0;
+  color:#dee5ea;
+}
+.multiple-items p{
+  font-size:16px;
+  color:#dee5ea;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  padding:0 10px 10px 10px;
+}
 section#articles {
   background: #181c1f;
 }
